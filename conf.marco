@@ -5,11 +5,11 @@ environment {
 
 behavior {
     theme "Kon"
-    
+
     layout {
         alwaysShowTabBar true
     }
-    
+
     dateFormat {
         normal "%b %-d, %Y"
     }
@@ -18,11 +18,11 @@ behavior {
         separator " - "
         normal "%-I:%M %p"
     }
-    
+
     files {
         defaultFolder "/Users/josephlyons"
     }
-    
+
     quickSelect {
         defaultMode "substring"
         filterMatchedItems true
@@ -49,10 +49,10 @@ fonts {
 keyBindings {
     "Left" "core.go.up"
     "Right" "core.open"
-    
+
     "Cmd+f" "core.forward"
     "Cmd+b" "core.back"
-    
+
     "Cmd+Down" "core.move.end"
     "Cmd+Shift+Down" "core.select.move.end"
     "Cmd+Up" "core.move.home"
