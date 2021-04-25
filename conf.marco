@@ -27,6 +27,10 @@ behavior {
         defaultMode "substring"
         filterMatchedItems true
     }
+    
+    volumeSpace {
+        format "${availableSpace} / ${totalSpace} (${availablePercent}) Free"
+    }
 }
 
 etty {
