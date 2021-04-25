@@ -1,3 +1,8 @@
+environment {
+    terminal "iTerm"
+    textEditor "Visual Studio Code"
+}
+
 behavior {
     theme "Kon"
     
@@ -12,6 +17,21 @@ behavior {
     timeFormat {
         separator " - "
         normal "%-I:%M %p"
+    }
+    
+    files {
+        defaultFolder "/Users/josephlyons"
+    }
+    
+    quickSelect {
+        defaultMode "substring"
+        filterMatchedItems true
+    }
+}
+
+etty {
+    fonts {
+        normal [ "MesloLGS NF" 14 ]
     }
 }
 
