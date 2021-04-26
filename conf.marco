@@ -19,6 +19,10 @@ behavior {
         normal "%-I:%M %p"
     }
 
+    actions {
+        core.trash.confirm false
+    }
+
     files {
         defaultFolder "/Users/josephlyons"
     }
