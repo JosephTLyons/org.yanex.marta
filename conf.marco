@@ -68,4 +68,5 @@ keyBindings {
 
     "Cmd+Shift+Right" "core.tab.next"
     "Cmd+Shift+Left" "core.tab.previous"
+    "Backspace" null
 }
